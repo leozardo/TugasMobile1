@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VicarrenActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tentang Vicarren"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/vicarren1" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="JAMBI - Vicarren, Outlet di komplek WTC Batanghari Jambi,menyediakan beragam Perlengkapan wanita mulai dari tas, sepatu, celana, baju kemeja/kaos dan masih banyak lagi lainnya.
+\n\n
+Selain menyediakan kebutuhan wanita, aksesoris pendukungnya lainnya juga ada.Aksesoris seperti kacamata, jam tangan, dompet, peminatnya Mulai dari kalangan anak muda hingga orang dewasa masih banyak yang menyukai aksesoris yang dijual di vicarren.
+
+"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
